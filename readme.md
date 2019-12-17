@@ -4,11 +4,11 @@
 
 `npm start`
 
-#### To compile the application
+#### To compile
 
 `browserify test.js -o bundle js`
 
-#### To compress the application
+#### To uglify 
 
 `browserify -g uglifyify ./bundle.js > compressed.js`
 
